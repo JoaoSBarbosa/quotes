@@ -75,6 +75,7 @@ main {
   cursor: pointer;
   border: none;
   transition: 0.4s;
+  margin-top: 1.5rem;
 }
 #quote-btn:hover {
   background: rgb(34, 193, 195);
@@ -83,4 +84,23 @@ main {
     rgba(34, 193, 195, 1) 0%,
     rgba(253, 187, 45, 1) 100%
   );
+}
+
+@media (max-width: 700px) {
+  .quote {
+    font-size: 1.3rem;
+    width: 80%;
+  }
+  .quote-author {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 400px) {
+  #menu {
+    display: none;
+  }
+  #quote-btn {
+    font-size: 1rem;
+  }
 }
