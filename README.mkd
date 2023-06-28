@@ -1,0 +1,48 @@
+# Gerador de Citações Famosas 📖📜
+
+Este é um projeto de um gerador de citações famosas desenvolvido em HTML, CSS e JavaScript. Com um simples clique em um botão, você poderá gerar citações aleatórias e inspiradoras.
+
+## Funcionalidades
+
+- Geração de citações aleatórias: Ao clicar no botão "Gerar Citação", uma citação famosa será exibida na tela.
+- Atualização automática: Cada vez que você pressionar o botão "Gerar Citação", uma nova citação será exibida na página.
+
+## Tecnologias Utilizadas
+
+- HTML: A estrutura básica do projeto foi criada usando HTML para definir os elementos da página.
+- CSS: O estilo visual do projeto foi implementado com CSS para tornar a interface atraente e responsiva.
+- JavaScript: A geração de citações aleatórias e os efeitos de atualização de texto são realizados em JavaScript.
+
+## Estrutura do Projeto
+
+O projeto segue a seguinte estrutura de arquivos:
+
+```
+Copy code├── index.html
+├── style.css
+└── script.js
+```
+
+- O arquivo `index.html` contém a estrutura básica do projeto, incluindo o botão de geração de citações e a área onde as citações serão exibidas.
+- O arquivo `style.css` define o estilo visual do projeto, como cores, fontes e layout.
+- O arquivo `script.js` contém o código JavaScript responsável pela geração de citações aleatórias e pelos efeitos de atualização de texto.
+
+## Executando o Projeto
+
+Para executar o projeto em sua máquina local, siga as etapas abaixo:
+
+1. Faça o download dos arquivos do projeto para um diretório de sua escolha.
+2. Abra o arquivo `index.html` em um navegador da web compatível.
+3. Clique no botão "Gerar Citação" para exibir uma citação aleatória.
+
+## Personalização
+
+Você pode personalizar o projeto de acordo com suas preferências. Algumas possíveis melhorias incluem:
+
+- Adicionar mais citações famosas ao banco de dados.
+- Estilizar a página de acordo com o seu gosto pessoal.
+- Implementar recursos adicionais, como compartilhamento de citações nas redes sociais ou salvá-las em um arquivo.
+
+## Contribuição
+
+Contribuições são bem-vindas! Se você encontrar algum problema, tiver sugestões de melhorias ou quiser adicionar novos recursos, fique à vontade para abrir uma [issue](link para as issues) ou enviar um [pull request](link para pull requests) neste repositório.

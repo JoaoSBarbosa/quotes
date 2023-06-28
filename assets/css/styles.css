@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  font-family: "Ysabeau SC", sans-serif;
+}
+a {
+  color: #000000;
+  text-decoration: none;
+  display: block;
+}
+.flex {
+  display: flex;
+  align-items: center;
+}
+#header {
+  justify-content: space-between;
+  background-color: rgb(235, 235, 235);
+  color: #000000;
+  padding: 10px 20px;
+  height: 70px;
+  font-size: 1.4rem;
+}
+#menu,
+#menu img {
+  max-height: 100%;
+}
+#menu {
+  gap: 20px;
+}
+main {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+
+  padding-top: 3rem;
+  height: calc(100vh - 90px);
+}
+.quote {
+  font-size: 1.8rem;
+  text-align: center;
+  width: 600px;
+  margin: 0 auto;
+  padding: 1.5rem;
+  border: 2px solid #fff;
+  color: #fff;
+  border-radius: 0.4rem;
+}
+.quote-text {
+  font-style: italic;
+  margin-bottom: 0.4rem;
+}
+.quote-author {
+  font-weight: bold;
+  font-size: 1.4rem;
+  color: rgb(0, 225, 255);
+  text-align: right;
+}
+#quote-btn {
+  font-size: 1.4rem;
+  background: rgb(238, 174, 202);
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+  color: #fff;
+  border-radius: 5px;
+  padding: 0.8rem 1.2rem;
+  cursor: pointer;
+  border: none;
+  transition: 0.4s;
+}
+#quote-btn:hover {
+  background: rgb(34, 193, 195);
+  background: linear-gradient(
+    0deg,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(253, 187, 45, 1) 100%
+  );
+}
